@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      f
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="navbar-left">
+        <a href="/">Renato Cianci</a>
+      </div>
+      <div class="navbar-right">
+        <a
+          href="https://github.com/Renacton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/renato-cianci-933bab1a6/?skipRedirect=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-square-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a
+          href="mailto:renatoescorciac@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- SECTION 1: Hero-->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hola, soy Renato</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+            dignissimos fugit quibusdam molestiae facilis error voluptatibus
+            voluptate dolores sapiente accusamus nam magnam nihil expedita, odio
+            alias officiis qui, ex dolore. Rem ullam labore provident suscipit,
+            vel quod odit repellat, architecto laudantium rerum, ab nobis qui
+            nihil? Explicabo, dignissimos quod! Sint!
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i><span>skills</span></a
+            >
+            <a href="#testimony">
+              <i class="fa-regular fa-comment"></i><span>Testimony</span></a
+            >
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i><span>Contacts</span></a
+            >
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img
+            src="images/headshotPicture.png"
+            alt="Renato Cianci headshot picture"
+          />
+        </div>
+      </section>
+
+      <!-- SECTION 2: Skills-->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+          molestiae optio natus, nemo neque ipsam minus iure totam ea maiores
+          necessitatibus labore non repudiandae excepturi tenetur ipsa nihil,
+          dolorum quidem cumque dolor a provident aliquam rerum! Numquam,
+          dolorem neque. Natus autem, nisi nobis tempore accusamus facilis dicta
+          laudantium consequuntur iure.
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="/images/html-logo.webp" alt="Logo Html" />
+            <span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="/images/css-logo.webp" alt="Logo Css" />
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="/images/javascript-logo.webp" alt="Logo Javascript" />
+            <span>JS</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Testimony-->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+          <div class="person-details">
+            <img
+              src="/images/testimony-headshot.webp"
+              alt="jonh doe testimony"
+            />
+            <p>John Doe</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            magnam quo fugit consequuntur. Molestias, eos sunt eaque possimus,
+            ducimus expedita quidem quos placeat hic dolorum magnam cupiditate
+            blanditiis consequuntur natus recusandae iusto quas qui officiis
+            accusantium quo ullam tempora rem a similique. Fugiat, sint! Amet
+            molestiae omnis voluptatibus veritatis provident."
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: Contact-->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic et idS
+            voluptatum culpa facilis, earum inventore velit dicta dolorum
+            accusamus perspiciatis deserunt, esse corporis doloribus optio porro
+            cumque. Incidunt provident corrupti dolore quae praesentium ad
+            harum, molestiae culpa vero alias amet magnam ducimus necessitatibus
+            aliquam reprehenderit quibusdam delectus mollitia earum.
+          </div>
+
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea cols="30" rows="10" id="message" id="message"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
